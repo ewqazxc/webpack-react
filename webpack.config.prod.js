@@ -28,7 +28,7 @@ module.exports = {
             template: "./src/index.html",
             title: "Webpack-React",
             filename: "index.html",
-            script: '<script type="text/javascript" src="http://rescdn.qqmail.com/node/ww/wwopenmng/js/sso/wwLogin-1.0.0.js"></script>'
+            // script: '<script type="text/javascript" src="http://rescdn.qqmail.com/node/ww/wwopenmng/js/sso/wwLogin-1.0.0.js"></script>'
         }),
         new UglifyJSPlugin({
             uglifyOptions: {compress: {
